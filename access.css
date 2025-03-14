@@ -1,7 +1,7 @@
-
+/* access.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffc0cb; 
+    background-color: #ffc0cb; /* Light pink background */
     color: #333;
     text-align: center;
     margin: 0;
@@ -17,13 +17,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
-    background: #ffdfdf; 
-    border: 2px solid #ff6b6b; 
-    border-radius: 15px; 
+    height: 100vh; /* Full viewport height */
+    background: #ffdfdf; /* Light pink background */
+    border: 2px solid #ff6b6b; /* Pink border */
+    border-radius: 15px; /* Rounded corners */
     padding: 2rem;
-    box-sizing: border-box; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; /* Ensures padding is included in width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
 
 #access-code {
     font-size: 1.5rem;
@@ -46,15 +47,15 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #87CEEB; 
+    background-color: #87CEEB; /* Green background */
     color: white;
 }
 
 #clearBtn {
-    background-color: #dc3545; 
+    background-color: #dc3545; /* Red background */
 }
 
 #error-message {
     color: red;
-    display: none; 
+    display: none; /* Hide the error message by default */
 }
